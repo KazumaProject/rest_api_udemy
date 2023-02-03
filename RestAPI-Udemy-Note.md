@@ -116,15 +116,15 @@ i.e. 検索結果ページにおける次のページ
 
 ## REST API設計レベル
 
-## Level 0. HTTPの使用
+### Level 0. HTTPの使用
 RPCスタイルのXML通信
   - HTTPは単なる通信手段
   - 1 URLで全て完結
   - Request Bodyに処理と引数が含まれる
-## Level 1. リソースの概念を導入
+### Level 1. リソースの概念を導入
   - リソースごとにURLを分離
   - HTTPメソッドは活用できないので、GETかPOSTのみ
-## Level 2. HTTPの動詞を導入
+### Level 2. HTTPの動詞を導入
   - HTTPメソッドを使ったCRUD操作が行われる
 
 | 操作 | CRUD | HTTPメソッド |
@@ -134,7 +134,7 @@ RPCスタイルのXML通信
 | 更新 | Update | PUT |
 | 削除 | Delete | DELETE |
 
-## Level 3. HATEOASの概念の導入
+### Level 3. HATEOASの概念の導入
 
 レスポンスにリソース間のつながりが含まれる
 
