@@ -6,3 +6,5 @@
 | ----------- | ----------- |
 | /v1/movies <br>/v1/movies/<movie_id> | GET|
 | /v1/movies | POST |
+| /v1/movies/<movie_id> | PUT |
+| /v1/movies/<movie_id> | DELETE |
